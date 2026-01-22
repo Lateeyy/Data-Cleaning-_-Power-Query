@@ -25,7 +25,7 @@ The dataset contains transactional sales information with columns such as SKU, S
 #### Data Corruption:
 - Nearly half of the Date column failed standard parsing.
 
-###Structural Inconsistencies:
+####Structural Inconsistencies:
 -Dataset appeared to be multiple tables merged together, requiring separation and re-integration.
 
 ## Cleaning and Transformation Steps
@@ -50,5 +50,10 @@ The dataset contains transactional sales information with columns such as SKU, S
 #### 5. Date Table Creation (Time Intelligence):
 - Created a dedicated DateTable in Power BI using CALENDARAUTO().
 - Generated additional columns for Month, Day of the Week, and Year to enable analysis of revenue and sales trends over time.
+
+## Tools Used
+- Power BI
+- Power Query
+- Excel
 
 
